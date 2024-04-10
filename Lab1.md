@@ -34,7 +34,7 @@ The way were were able to implement the cd command in our lab in order to change
 > ## List Directory
 
 The lab allowed us the practice the implementation of the `ls` command which allows us to list out the the files and directories within the current working directory if not given an arguement. When given an arguement, the `ls` command will list out the the files and directories within the the directory given in the arguement.  
-
+![image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot 2024-04-10 at 4.18.43 PM.png)
 
 > ## Catenation
 
