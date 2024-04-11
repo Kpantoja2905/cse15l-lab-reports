@@ -57,13 +57,16 @@ The lab allowed us the practice the implementation of the `ls` command which all
 ![image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-04-10%20at%204.45.05%20PM.png?raw=true)
 
 1) As shown in the image, when the `ls` command is executed with no arguement given the, command will print all the files and directories in the current working directory such as in the image all the files and directories in my Desktop are printed after the `ls` command was executed.
+
 ```
 kevinpantoja@Kevins-MacBook-Air-5 lecture1 % pwd
 /Users/kevinpantoja/lecture1
 kevinpantoja@Kevins-MacBook-Air-5 lecture1 % ls
 Hello.class     Hello.java README               messages
 ```
+
 2) When the `ls` command is executed with a directory, the command will print the content of the directory in the arguement.
+
 ```
 kevinpantoja@Kevins-MacBook-Air-5 lecture1 % pwd
 /Users/kevinpantoja/lecture1
@@ -71,6 +74,7 @@ kevinpantoja@Kevins-MacBook-Air-5 lecture1 % ls messages/
 en-us.txt       es-mx.txt  zh-cn.txt
 ```
 3) When the command is executed with a file such as `Hello.java` the output will be the name of that file.
+   
 ```
 kevinpantoja@Kevins-MacBook-Air-5 lecture1 % pwd  
 /Users/kevinpantoja/lecture1
@@ -80,6 +84,8 @@ Hello.java
 
 > ## Catenation
 
+
 The `cat` command allowed us to view the contents of a file in the lab. When the command is used, the command must be used with an argument. The command runs an error when the command is used with a directory such as `messages` shown below. But when the command is executed with a file such as `Hello.java` the command prints out the contents within the file.
+
 
 ![image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-04-10%20at%204.46.54%20PM.png?raw=true)
