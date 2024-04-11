@@ -10,10 +10,6 @@ During the lab we were able to put in practice of the knowledge of commands were
 
 During this week 1 Lectures we learned commands such as `cd`, `ls`, and `cat`. The commands are used in order to be able to access and see specific files or directories. During the lab, we put the following commands into practice by using the commands to change or access specific directories from the repository that we were able to clone for GitHub using the command `git clone` which allowed us to clone into our VS code terminal in order to execute the commands we learned in lecture.
 
-
-![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-04-02%20at%209.49.12%20AM.png)
-
-
 > ## Changing Directory
 
 In the following Example, I am starting off in the `/home` directory, denoted by the`~`.
@@ -93,3 +89,35 @@ The `cat` command allowed us to view the contents of a file in the lab. When the
 
 
 ![image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-04-10%20at%204.46.54%20PM.png?raw=true)
+
+
+1) When the command `cat`  was used without an argument there was nothing printed because `cat` needs an argument.
+
+```
+kevinpantoja@Kevins-MacBook-Air-5 lecture1 % cd
+```
+   
+2) When the command is executed with a directory as an argument, there was an error message.
+
+```
+kevinpantoja@Kevins-MacBook-Air-5 ~ % cat lecture1
+cat: lecture1: Is a directory
+```
+
+3) Executing the `cat` command with a file name as an arguement such as `Hello.java` allows for the contents of that file to be printed.
+
+```
+kevinpantoja@Kevins-MacBook-Air-5 lecture1 % cat Hello.java 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}%                                                                                                                                   
+```
+
