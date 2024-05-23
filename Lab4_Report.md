@@ -83,11 +83,11 @@ As we can see the errors in the test come within the files of `ListExamples.java
 
 We have the previous code which looked like:
 
-![Image](http://url/a.png)
+![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-05-22%20at%206.08.59%20PM.png?raw=true)
 
 Using the typing `i` allows for use to insert changes within the code, which allows use to make the neccessary edits to the command. Which You can see we changed the code `index1 =` to `index2 =` in order for the code to run correctly. Although in vim it is a bit different to move around as I had to use the commands `J → L → x →A → 2 → esc → :wq ` in order ot get to the neccessary lines.
 
-![Image](http://url/a.png)
+![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-05-22%20at%206.09.39%20PM.png?raw=true)
 
 > ## Run the tests, demonstrating that they now succeed
 Once the changes were made to the java file, we could now run the `bash tests.sh` commands again in order to see if the new file passes the tests whcih you can see I executed the files below.
