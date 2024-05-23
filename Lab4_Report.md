@@ -104,6 +104,7 @@ OK (2 tests)
 ```
 > ## Commit and push the resulting change
 
-
+For the final step 9, the keys were: `git<space>add<SPACE>.<ENTER>, git<space>commit<space>-m<space>"Changed were made"<ENTER>, git<space>push <ENTER>`
+I used these git commands to commit and push the changes I made to the file onto the forked repo for this lab. I inculded a photo of my froked repo once I ran all my git commands
 
 
