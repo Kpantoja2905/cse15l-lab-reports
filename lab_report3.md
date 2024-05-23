@@ -30,6 +30,12 @@ Meanwhile the following test should be successful because the code determines th
     assertEquals(1,list.length());
   }
   ```
+Failed:
+![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-05-22%20at%209.23.42%20PM.png?raw=true)
+
+Pass:
+![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-05-22%20at%209.23.42%20PM.png?raw=true)
+
 
 Thefore as mentioned above when the code is fixed, the `test` outputs will change because the code will produces the correct out therefore the test that are meant to pass, will pass whereas the test that are meant to fail, will fail.
 
