@@ -48,4 +48,7 @@
 > 
 > ![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-06-05%20at%205.51.47%20PM.png?raw=true)
 
-## 
+## Reflection 
+
+Learning Vim during the best part of the quarter means you had a good opportunity to focus on it without too many other distractions. Here's why it's beneficial for programming on the command line. Vim is a highly efficient text editor that allows you to edit files quickly using keyboard shortcuts. This saves time compared to using a mouse. Vim works in the command line, so you can edit code directly on remote servers or within your terminal without needing a graphical interface. Learning Vim helps you become more comfortable with command-line tools and environments, which are essential for many programming and system administration tasks. So, dedicating a good part of your quarter to learning Vim means you gained a valuable skill that makes you a more efficient and capable programmer, especially when working directly in the command line.
+
