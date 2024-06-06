@@ -107,4 +107,6 @@ OK (2 tests)
 For the final step 9, the keys were: `git<space>add<SPACE>.<ENTER>, git<space>commit<space>-m<space>"Changed were made"<ENTER>, git<space>push <ENTER>`
 I used these git commands to commit and push the changes I made to the file onto the forked repo for this lab. I inculded a photo of my froked repo once I ran all my git commands
 
+![Image](https://github.com/Kpantoja2905/cse15l-lab-reports/blob/main/Screenshot%202024-06-05%20at%2010.56.22%20PM.png?raw=true)
+
 
